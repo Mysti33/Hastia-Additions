@@ -1,0 +1,1697 @@
+{
+  "mod_elements": [
+    {
+      "name": "Totems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totems",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FireTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_totem",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/item/FireTotemItem.java",
+          "src/main/resources/assets/hastia_additions/models/item/fire_totem.json"
+        ]
+      }
+    },
+    {
+      "name": "FireTotemItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_totem_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/FireTotemItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightblock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/recipes/lightblock.json"
+        ]
+      }
+    },
+    {
+      "name": "FireTotemProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_totem_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/FireTotemProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firetotemcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firetotemcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/recipes/firetotemcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "EearthTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eearth_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hastia_additions/models/item/eearth_totem.json",
+          "src/main/java/hastia/additions/item/EearthTotemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AirTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hastia_additions/models/item/air_totem.json",
+          "src/main/java/hastia/additions/item/AirTotemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EarthTotemComportement",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_totem_comportement",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/EarthTotemComportementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EarthTotemCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_totem_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/recipes/earth_totem_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "EarthHability",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_hability",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/EarthHabilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EarthTotemLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_totem_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/loot_tables/chests/earth_totem_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "AirTotemAbility",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_totem_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/AirTotemAbilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AirTotemCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_totem_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/recipes/air_totem_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Effect1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_1",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/Effect1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpecialsAbilityTree",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "specials_ability_tree",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/world/inventory/SpecialsAbilityTreeMenu.java",
+          "src/main/java/hastia/additions/network/SpecialsAbilityTreeButtonMessage.java",
+          "src/main/java/hastia/additions/client/gui/SpecialsAbilityTreeScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenSA",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_sa",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/OpenSAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenSpecialsAbility",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_specials_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/network/OpenSpecialsAbilityMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Effect2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_2",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/Effect2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HastiaEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hastia_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/HastiaEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DragonShoot",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/potion/DragonShootMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "DragonBallProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/DragonBallProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DragonBall",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/entity/DragonBallEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DragonShootCode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_shoot_code",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/DragonShootCodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cooldown1",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown_1",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/potion/Cooldown1MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectricPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/item/ElectricPickaxeItem.java",
+          "src/main/resources/assets/hastia_additions/models/item/electric_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ToolsAndItems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tools_and_items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "IronStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/item/IronStickItem.java",
+          "src/main/resources/assets/hastia_additions/models/item/iron_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "ElecPickCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elec_pick_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/recipes/elec_pick_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStickCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/recipes/iron_stick_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeelTreeOpen",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speel_tree_open",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/network/SpeelTreeOpenMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeelTreeGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speel_tree_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/world/inventory/SpeelTreeGuiMenu.java",
+          "src/main/java/hastia/additions/network/SpeelTreeGuiButtonMessage.java",
+          "src/main/java/hastia/additions/client/gui/SpeelTreeGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "FireSpell",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_spell",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/entity/FireSpellEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "KeySpell",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_spell",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/network/KeySpellMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeelTreeOpenOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speel_tree_open_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/SpeelTreeOpenOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/FireProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/TestProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeySpellOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_spell_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/KeySpellOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpellCooldown",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/potion/SpellCooldownMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "FireOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/client/screens/FireOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "FireOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/FireOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireSpellProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_spell_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/FireSpellProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireCooldownOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_cooldown_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/client/screens/FireCooldownOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hastia_additions/models/item/reinforced_shovel.json",
+          "src/main/java/hastia/additions/item/ReinforcedShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedSHovelCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_s_hovel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/recipes/reinforced_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "RepulsiveProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsive_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/RepulsiveProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RepelOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repel_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/client/screens/RepelOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "RepelOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repel_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/RepelOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireSpellUnlock",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_spell_unlock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/advancements/fire_spell_unlock.json"
+        ]
+      }
+    },
+    {
+      "name": "Welcome",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/advancements/welcome.json"
+        ]
+      }
+    },
+    {
+      "name": "FireSpellLogo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_spell_logo",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/item/FireSpellLogoItem.java",
+          "src/main/resources/assets/hastia_additions/models/item/fire_spell_logo.json"
+        ]
+      }
+    },
+    {
+      "name": "RepelSpellLogo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repel_spell_logo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hastia_additions/models/item/repel_spell_logo.json",
+          "src/main/java/hastia/additions/item/RepelSpellLogoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RepelSpellUnlock",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repel_spell_unlock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/advancements/repel_spell_unlock.json"
+        ]
+      }
+    },
+    {
+      "name": "RepelSpellAdvUnlcok",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repel_spell_adv_unlcok",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/RepelSpellAdvUnlcokProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrenghtEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenght_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/StrenghtEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RegenII",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regen_ii",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/RegenIIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResistII",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resist_ii",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/ResistIIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrenghtII",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenght_ii",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/StrenghtIIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThunderProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/ThunderProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThunderOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/client/screens/ThunderOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "ThunderOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/ThunderOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thunderlol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderlol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hastia_additions/models/item/thunderlol.json",
+          "src/main/java/hastia/additions/item/ThunderlolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Thunderunlock",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderunlock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hastia_additions/advancements/thunderunlock.json"
+        ]
+      }
+    },
+    {
+      "name": "CooldownOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/client/screens/CooldownOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "CooldownDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown_display",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/CooldownDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CooldownOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CooldownOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cooldowntimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldowntimer",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/CooldowntimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_11",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_12",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI13",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_13",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI14",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_14",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CI15",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ci_15",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/hastia/additions/procedures/CI15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InvisibilityDetectorRingRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_detector_ring_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/procedures/InvisibilityDetectorRingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InvisibilityDetectorRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_detector_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hastia_additions/models/item/invisibility_detector_ring.json",
+          "src/main/java/hastia/additions/item/InvisibilityDetectorRingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TeleportationRune",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportation_rune",
+      "metadata": {
+        "files": [
+          "src/main/java/hastia/additions/item/TeleportationRuneItem.java",
+          "src/main/resources/assets/hastia_additions/models/item/teleportation_rune.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "SpellNumber",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ElectricPickaxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:ReinforcedShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.hastia_additions.eearth_totem": "Earth Totem",
+      "gui.hastia_additions.specials_ability_tree.label_1": "+ 1",
+      "advancements.thunderunlock.title": "Thunder spell",
+      "gui.hastia_additions.specials_ability_tree.label_19": "1",
+      "gui.hastia_additions.specials_ability_tree.label_18": "+ 1",
+      "gui.hastia_additions.specials_ability_tree.label_17": "+ 1",
+      "gui.hastia_additions.specials_ability_tree.label_16": "1",
+      "gui.hastia_additions.specials_ability_tree.label_15": "+ 1",
+      "gui.hastia_additions.specials_ability_tree.button_regeneration_i": "Regeneration II",
+      "gui.hastia_additions.specials_ability_tree.label_14": "+ 1",
+      "key.hastia_additions.speel_tree_open": "Speel Tree Open",
+      "gui.hastia_additions.specials_ability_tree.label_13": "1",
+      "gui.hastia_additions.specials_ability_tree.label_dragon_egg": "1 Dragon Egg + 1",
+      "gui.hastia_additions.specials_ability_tree.label_12": "+ 1",
+      "gui.hastia_additions.specials_ability_tree.button_dragon_effect": "Dragon Effect",
+      "gui.hastia_additions.specials_ability_tree.label_11": "1",
+      "advancements.repel_spell_unlock.descr": "Find a forteress and unlock the Repel Spell !",
+      "advancements.welcome.title": "Welcome to Hastia Additions !",
+      "gui.hastia_additions.speel_tree_gui.tooltip_fire_spell": "Fire Spell",
+      "effect.hastia_additions.cooldown_1": "Cooldown",
+      "gui.hastia_additions.speel_tree_gui.tooltip_test": "Repel Spell",
+      "gui.hastia_additions.speel_tree_gui.tooltip_thunder_spell": "Thunder Spell",
+      "item_group.hastia_additions.totems": "Totems",
+      "gui.hastia_additions.specials_ability_tree.label_1_netherite_upgrade": "1",
+      "item.hastia_additions.air_totem": "Air Totem",
+      "gui.hastia_additions.specials_ability_tree.label_1_x": "1",
+      "advancements.fire_spell_unlock.title": "Fire Spell",
+      "advancements.thunderunlock.descr": "Become an hero of the village to unlock the Thunder Spell !",
+      "gui.hastia_additions.specials_ability_tree.button_resistance_i": "Resistance II",
+      "item.hastia_additions.teleportation_rune": "Teleportation Rune",
+      "gui.hastia_additions.speel_tree_gui.tooltip_clear_spells": "Clear Spells",
+      "effect.hastia_additions.spell_cooldown": "Spell Cooldown",
+      "key.hastia_additions.key_spell": "Key Spell",
+      "gui.hastia_additions.specials_ability_tree.button_regeneration_ii": "Regeneration III",
+      "item.hastia_additions.invisibility_detector_ring": "Glowing Ring",
+      "item.hastia_additions.electric_pickaxe": "Reinforced Pickaxe",
+      "gui.hastia_additions.speel_tree_gui.button_x": "X",
+      "gui.hastia_additions.speel_tree_gui.button_fire": "Fire",
+      "gui.hastia_additions.specials_ability_tree.label_dragons_breath": "Dragon\u0027s Breath",
+      "item_group.hastia_additions.tools_and_items": "Tools \u0026 Items",
+      "gui.hastia_additions.specials_ability_tree.button_strength_ii": "Strength III",
+      "gui.hastia_additions.specials_ability_tree.label_1_netherite_upgrade_1_iron_blo": "1 Netherite Upgrade",
+      "item.hastia_additions.reinforced_shovel": "Reinforced Shovel",
+      "item.hastia_additions.repel_spell_logo": "Repel Spell Logo",
+      "key.hastia_additions.open_specials_ability": "Open Specials Ability",
+      "advancements.fire_spell_unlock.descr": "Discover the nether to unlock Fire Spell",
+      "advancements.welcome.descr": "Thanks for download !",
+      "item.hastia_additions.earth_totem": "Earth Totem",
+      "gui.hastia_additions.specials_ability_tree.label_iron_block": "1 Iron Block",
+      "gui.hastia_additions.specials_ability_tree.label_specials_effects": "Specials effects",
+      "item.hastia_additions.fire_totem": "Fire Totem",
+      "advancements.repel_spell_unlock.title": "Repel Spell",
+      "item.hastia_additions.fire_spell_logo": "Fire Spell Logo",
+      "item.hastia_additions.thunderlol": "Thunderlol",
+      "effect.hastia_additions.dragon_shoot": "Dragon",
+      "item.hastia_additions.iron_stick": "Iron Stick",
+      "gui.hastia_additions.specials_ability_tree.button_strength": "Strength II",
+      "gui.hastia_additions.specials_ability_tree.button_resistance_ii": "Resistance III"
+    },
+    "fr_fr": {
+      "item.hastia_additions.eearth_totem": "Totem de la Terre",
+      "gui.hastia_additions.specials_ability_tree.label_1": "+ 1",
+      "advancements.thunderunlock.title": "Sort d\u0027éclaires",
+      "gui.hastia_additions.specials_ability_tree.label_19": "1",
+      "gui.hastia_additions.specials_ability_tree.label_18": "+ 1",
+      "gui.hastia_additions.specials_ability_tree.label_17": "+ 1",
+      "gui.hastia_additions.specials_ability_tree.label_16": "1",
+      "gui.hastia_additions.specials_ability_tree.label_15": "+ 1",
+      "gui.hastia_additions.specials_ability_tree.button_regeneration_i": "Régénération II",
+      "gui.hastia_additions.specials_ability_tree.label_14": "+ 1",
+      "key.hastia_additions.speel_tree_open": "Ouvrir l\u0027abre des sorts",
+      "gui.hastia_additions.specials_ability_tree.label_13": "1",
+      "gui.hastia_additions.specials_ability_tree.label_dragon_egg": "Oeuf du Dragon",
+      "gui.hastia_additions.specials_ability_tree.label_12": "+ 1",
+      "gui.hastia_additions.specials_ability_tree.button_dragon_effect": "Effet du Dragon",
+      "gui.hastia_additions.specials_ability_tree.label_11": "2",
+      "advancements.repel_spell_unlock.descr": "Trouver une forteresse pour débloquer le sort de repoussement !",
+      "advancements.welcome.title": "Bienvenue à Hastia Additions",
+      "gui.hastia_additions.speel_tree_gui.tooltip_fire_spell": "Sort de feux",
+      "effect.hastia_additions.cooldown_1": "Cooldown",
+      "gui.hastia_additions.speel_tree_gui.tooltip_test": "Sort de repoussement",
+      "gui.hastia_additions.speel_tree_gui.tooltip_thunder_spell": "Sort d\u0027éclaires",
+      "item_group.hastia_additions.totems": "Totems",
+      "gui.hastia_additions.specials_ability_tree.label_1_netherite_upgrade": "1",
+      "item.hastia_additions.air_totem": "Totem de l\u0027Air",
+      "gui.hastia_additions.specials_ability_tree.label_1_x": "1",
+      "advancements.fire_spell_unlock.title": "Débloquer le sort de feux",
+      "advancements.thunderunlock.descr": "Devenez un héro du village ( succès minecraft ) pour débloquer le sort d\u0027éclaires !",
+      "gui.hastia_additions.specials_ability_tree.button_resistance_i": "Résistance II",
+      "item.hastia_additions.teleportation_rune": "Teleportation Rune",
+      "gui.hastia_additions.speel_tree_gui.tooltip_clear_spells": "Aucun sort",
+      "effect.hastia_additions.spell_cooldown": "Cooldown des sorts",
+      "key.hastia_additions.key_spell": "Lancer un sort",
+      "gui.hastia_additions.specials_ability_tree.button_regeneration_ii": "Régénération III",
+      "item.hastia_additions.invisibility_detector_ring": "Anneau de surbrillance",
+      "item.hastia_additions.electric_pickaxe": "Pioche Renforcée",
+      "gui.hastia_additions.speel_tree_gui.button_x": "X",
+      "gui.hastia_additions.speel_tree_gui.button_fire": "Feux",
+      "gui.hastia_additions.specials_ability_tree.label_dragons_breath": "Souffle du Dragon",
+      "item_group.hastia_additions.tools_and_items": "Outils \u0026 objets",
+      "gui.hastia_additions.specials_ability_tree.button_strength_ii": "Force III",
+      "gui.hastia_additions.specials_ability_tree.label_1_netherite_upgrade_1_iron_blo": "1",
+      "item.hastia_additions.reinforced_shovel": "Pelle renforcée",
+      "item.hastia_additions.repel_spell_logo": "Repel Spell Logo",
+      "key.hastia_additions.open_specials_ability": "Ouvir les effets spéciaux",
+      "advancements.fire_spell_unlock.descr": "Découvrez le nether pour débloquer le sort de feux !",
+      "advancements.welcome.descr": "Merci d\u0027avoir télécharger !",
+      "item.hastia_additions.earth_totem": "Totem de la Terre",
+      "gui.hastia_additions.specials_ability_tree.label_iron_block": "1 block de fer",
+      "gui.hastia_additions.specials_ability_tree.label_specials_effects": "Effets spéciaux",
+      "item.hastia_additions.fire_totem": "Totem de Feux",
+      "advancements.repel_spell_unlock.title": "Débloquer le sort de repoussement",
+      "item.hastia_additions.fire_spell_logo": "Fire Spell Logo",
+      "item.hastia_additions.thunderlol": "Thunderlol",
+      "effect.hastia_additions.dragon_shoot": "Dragon",
+      "item.hastia_additions.iron_stick": "Bâton de fer",
+      "gui.hastia_additions.specials_ability_tree.button_strength": "Force II",
+      "gui.hastia_additions.specials_ability_tree.button_resistance_ii": "Résistance III"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/hastia/additions/init/HastiaAdditionsModMenus.java",
+      "src/main/java/hastia/additions/network/MenuStateUpdateMessage.java",
+      "src/main/java/hastia/additions/init/HastiaAdditionsModScreens.java",
+      "src/main/java/hastia/additions/init/HastiaAdditionsModKeyMappings.java",
+      "src/main/java/hastia/additions/init/HastiaAdditionsModMobEffects.java",
+      "src/main/java/hastia/additions/init/HastiaAdditionsModItems.java",
+      "src/main/java/hastia/additions/init/HastiaAdditionsModEntityRenderers.java",
+      "src/main/java/hastia/additions/init/HastiaAdditionsModEntities.java",
+      "src/main/java/hastia/additions/init/HastiaAdditionsModTabs.java",
+      "src/main/java/hastia/additions/network/HastiaAdditionsModVariables.java",
+      "src/main/java/hastia/additions/HastiaAdditionsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hastia_additions",
+    "modName": "Hastia Additions",
+    "version": "1.0.0",
+    "author": "alexp, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "hastia.additions"
+  },
+  "mcreatorVersion": 202500345720
+}
