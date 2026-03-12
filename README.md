@@ -196,4 +196,4 @@ Contributions, bug reports and suggestions are welcome.
 
 # License
 
-Add your license here.
+MIT License
