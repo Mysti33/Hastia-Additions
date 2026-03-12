@@ -20,10 +20,14 @@ You can download the mod on:
 You can also download **older versions** in the **Releases section** of this repository.
 
 ---
+![Features](https://media.forgecdn.net/attachments/description/null/description_924c81e6-b463-44c8-9709-bdd86c08e5e6.png)
+
 
 # Features
 
 ## Elemental Totems
+
+![Totems](https://media.forgecdn.net/attachments/description/null/description_31656921-c873-4f87-ba3c-3b37ec514c6e.png)
 
 Elemental Totems add a **new survival mechanic** based on powerful artifacts.
 
@@ -114,6 +118,8 @@ More effects will be added in future updates.
 
 # Reinforced Tools
 
+![Reinforced Tools](https://media.forgecdn.net/attachments/description/1362880/description_b329917f-e9df-4dfd-b93a-854219775fa9.png)
+
 The mod introduces **reinforced tools**, stronger than Netherite.
 
 ### Reinforced Pickaxe
@@ -142,6 +148,8 @@ This is especially useful for players who want **clean lighting in survival buil
 ---
 
 # Development Status
+
+![Beta Phase](https://media.forgecdn.net/attachments/description/1362880/description_ccee01cf-d886-49fa-87b0-293af294da5e.png)
 
 This mod is currently **under active development**.
 
