@@ -1,0 +1,34 @@
+# Build folders
+build/
+run/
+out/
+
+# Gradle cache
+.gradle/
+_gradle/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Temporary files
+*.tmp
+*.cache
+
+# MCreator runtime files
+mcreator/build/
+mcreator/run/
+
+# Generated resources
+generated/
+
+# Local configuration
+local.properties
