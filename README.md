@@ -14,8 +14,8 @@ A Minecraft mod that introduces **powerful elemental totems, unlockable spells, 
 
 You can download the mod on:
 
-[CurseForge](LINK_TO_CURSEFORGE)
-[Modrinth](LINK_TO_MODRINTH)
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/hastia-additions)
+[Modrinth](https://modrinth.com/mod/hastia-additions)
 
 You can also download **older versions** in the **Releases section** of this repository.
 
